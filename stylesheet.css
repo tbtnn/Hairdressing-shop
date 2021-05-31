@@ -1,0 +1,551 @@
+body{
+    font-family:'arial';
+    
+}
+
+header{
+    background-color:rgba(255,255,255,0.8) ;
+    width:100%;
+    height:100px;
+    position: fixed;
+    top:0;
+    z-index: 10;
+    
+}
+.header-left1{
+    font-size:35px;
+   line-height:28px;
+    display: inline-block;
+}
+.header-left1 ul li{
+    float: left;
+    list-style: none; 
+    padding-left:30px;
+    font-family:'Comic Sans MS';
+    
+}
+.header-left2{
+    padding-left:0px;
+    display: inline-block;
+}
+.header-left2 ul li{
+    list-style: none;
+    font-size:15px;
+  text-align: center;
+    color:#666666;
+}
+
+.header-right{
+    float: right;
+    margin-right:130px;
+    
+}
+.header-right a{
+    padding:20px 23px;
+    text-align: center;
+    background-color: #333333;
+    border: double 7px white;
+    color: white;
+    line-height: 100px;
+    
+}
+header:hover{
+    cursor: pointer;
+}
+.top{
+    height:800px;
+    z-index: -1;
+    width:100%;
+  
+}
+.img-wrap{
+   margin-top:100px;
+    position: relative;
+   
+    
+}
+.img-wrap img{
+width:100%;
+position: absolute;
+height:800px;
+
+}
+.fadeout{
+    position: absolute;
+    right:45%;
+    display: none;
+    padding-top:300px;
+    
+}
+.fadeout h1{
+    font-size: 60px;
+    font-family:'Comic Sans MS';
+  
+}
+.fadeout h5{
+    color: #666666;
+
+}
+.introduction-wrap{
+    width:100%;
+  margin-bottom:100px;
+}
+.introduction{
+    width:60%;
+    margin:100px 20%;
+    text-align: center;
+}
+.introduction-top h2{
+    font-weight:normal;
+    letter-spacing: 15px;
+    font-size: 20px;
+    margin-bottom:80px;
+}
+.introduction-top h1{
+    font-family:'Comic Sans MS';
+    font-size: 45px;
+    margin-bottom:0px;
+}
+.introduction-top p{
+    font-size: 10px;
+    color:#666666;
+   margin-bottom:60px;
+}
+
+.introduction-left{
+    width:50%;
+    float: left;
+   
+}
+.introduction-left h2{
+    font-size: 19px;
+    margin-bottom:40px;
+}
+
+.introduction-right{
+    width:50%;
+    float:right;
+   
+}
+.introduction-right h2{
+    font-size:19px;
+    margin-bottom:40px;
+}
+.introduction-left p{
+    font-size:15px;
+}
+.introduction-right p{
+    font-size:15px;
+
+}
+.season-wrap{
+    width:100%;
+    position: relative;
+    padding-top:150px;
+}
+.season{
+    width:60%;
+    margin:80px 20%;
+    z-index: -1;
+
+}
+.season img{
+    width:100%;
+}
+
+
+.season a{
+    border:2px solid white;
+    width:250px;
+  position: absolute;
+  top:80%;
+  right:43%;
+  color:white;
+  
+}
+.season a h5{
+    text-align: center;
+}
+.season a:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}
+.gallery-wrap{
+    width:100%;
+}
+.gallery{
+    width:60%;
+    margin:50px 20%;
+    text-align: center;
+}
+.gallery h1{
+    font-size:40px;
+    line-height: 25px;
+    display: inline-block;
+    border-bottom:1.5px solid black;
+    letter-spacing: 10px;
+    margin-bottom:50px;
+}
+.gallery-img1{
+    width:60%;
+    margin:50px 20%;
+    text-align: center;
+}
+.gallery-img1 a{
+    width:20%;
+    height:300px;
+    display: inline-block;
+    border:1px solid silver;
+}
+.gallery2{
+    width:60%;
+    margin:50px 20%;
+    text-align: center;
+}
+.gallery2 a{
+    width:20%;
+    height:300px;
+    display: inline-block;
+    border: 1px solid silver;
+}
+.gallery-more{
+    width:20%;
+    height:50px;
+    margin:50px 40%;
+    text-align: center;
+    border:1px solid black;
+}
+.gallery-more a{
+    line-height: 50px;
+    display: block;
+    font-weight: bold;
+   
+}
+.gallery-more:hover{
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.store-wrap{
+    width:100%;
+}
+.store{
+    width:100%;
+    text-align: center;
+}
+.shibuya-logo{
+    width:100%;
+}
+.shibuya{
+    background-image: url("https://blogimg.goo.ne.jp/user_image/1b/fa/59cbc9be42454dd47ebe13c448683a1d.jpg") ;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    background-size: cover;
+    height:800px;
+}
+.shibuya h1{
+    font-size:40px;
+    border-bottom:1px solid black;
+    letter-spacing: 10px;
+    line-height: 25px;
+    display: inline-block;
+    margin-top:80px;
+    
+}
+.shibuya-accsess-s{
+    display: none;
+}
+.shibuya-img{
+    width:50%;
+    float: left;
+}
+.shibuya-img img{
+    width:60%;
+    margin-right:10%;
+    margin-left:30%;
+    margin-top:120px;
+   
+}
+.shibuya-access{
+    width:50%;
+    float: right;
+  margin-top:30px;
+  
+}
+.shibuya-access h5{
+    font-size: 15px;
+    width:60%;
+    line-height: 10px;
+}
+.shibuya-access p{
+    border:1px solid black;
+    height:300px;
+    width:50%;
+    margin-right:40%;
+    margin-left:10%;
+    margin-top:40px;
+}
+.shibuya-more{
+    width:20%;
+    height:60px;
+    display: inline-block;
+    margin:50px 40%;
+    border:1px solid black;
+}
+.shibuya-more a{
+    line-height: 60px;
+    display: block;
+
+}
+.shibuya-more:hover{
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+.shinjuku-logo{
+    width:100%;
+}
+.shinjuku{
+    background-image: url("https://blogimg.goo.ne.jp/user_image/1b/fa/59cbc9be42454dd47ebe13c448683a1d.jpg") ;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    background-size: cover;
+    height:800px;
+}
+.shinjuku h1{
+    font-size:40px;
+    border-bottom:1px solid black;
+    letter-spacing: 10px;
+    line-height: 25px;
+    display: inline-block;
+    margin-top:80px;
+    
+}
+.shinjuku-access-s{
+    display: none;
+}
+.shinjuku-img{
+    width:50%;
+    float: left;
+}
+.shinjuku-img img{
+    width:60%;
+    margin-right:10%;
+    margin-left:30%;
+    margin-top:120px;
+   
+}
+.shinjuku-access{
+    width:50%;
+    float: right;
+  margin-top:30px;
+  
+}
+.shinjuku-access h5{
+    font-size: 15px;
+    width:60%;
+    line-height: 10px;
+}
+.shinjuku-access p{
+    border:1px solid black;
+    height:300px;
+    width:50%;
+    margin-right:40%;
+    margin-left:10%;
+    margin-top:40px;
+}
+.shinjuku-more{
+    width:20%;
+    height:60px;
+    display: inline-block;
+    margin:50px 40%;
+    border:1px solid black;
+}
+.shinjuku-more a{
+    line-height: 60px;
+    display: block;
+
+}
+.shinjuku-more:hover{
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+.staff-wrap{
+    width:100%;
+    background-image: url("4748195_s.jpg");
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    background-size: cover;
+    height:800px;
+    padding-top:100px;
+}
+.staff{
+    text-align: center;
+}
+.staff h1{
+    font-size:40px;
+    border-bottom:1px solid black;
+    letter-spacing: 10px;
+    line-height: 25px;
+    display: inline-block;
+
+}
+.staff img{
+    width:30%;
+    height:350px;
+    margin:30px 35%;
+}
+.staff-more a{
+    line-height: 60px;
+    display: block;
+}
+.staff-more{
+    width:20%;
+    height:60px;
+    display: inline-block;
+    margin:50px 40%;
+    border:1px solid black;
+}
+.staff-more:hover{
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+
+.recruit-wrap{
+    width:100%;
+    background-image: url("4888049_s.jpg");
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    background-size: cover;
+    height:800px;
+    padding-top:100px;
+}
+.recruit{
+    text-align: center;
+}
+.recruit h1{
+    font-size:40px;
+    border-bottom:1px solid black;
+    letter-spacing: 10px;
+    line-height: 25px;
+    display: inline-block;
+
+}
+.recruit img{
+    width:30%;
+    height:350px;
+    margin:30px 35%;
+}
+.recruit-more a{
+    line-height: 60px;
+    display: block;
+}
+.recruit-more{
+    width:20%;
+    height:60px;
+    display: inline-block;
+    margin:50px 40%;
+    border:1px solid black;
+}
+.recruit-more:hover{
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+.sns-wrap{
+    width:100%;
+    padding-top:100px;
+}
+.sns{
+    text-align: center;
+}
+.sns h1{
+    font-size:40px;
+    border-bottom:1px solid black;
+    letter-spacing: 10px;
+    line-height: 25px;
+    display: inline-block;
+}
+.sns-btn{
+    margin-top:70px;
+    width:20%;
+    height:60px;
+    display: inline-block;
+    margin:50px 40%;
+    border:1px solid black;
+}
+.sns-btn a{
+    line-height: 60px;
+    display: block;
+}
+.sns-btn:hover{
+    cursor: pointer;
+}
+
+.sns-btn2{
+    margin-top:70px;
+    width:20%;
+    height:60px;
+    display: inline-block;
+    margin:50px 40%;
+    border:1px solid black;
+}
+.sns-btn2 a{
+    line-height: 60px;
+    display: block;
+}
+.sns-btn2:hover{
+    cursor: pointer;
+}
+
+footer{
+    background-color:#333333 ;
+    width:100%;
+    padding-bottom:70px;
+}
+.footer{
+    width:60%;
+    margin: 30px 20%;
+    text-align: center;
+    color: white;
+}
+.footer-top h1{
+    font-size: 60px;
+    font-family:'Comic Sans MS';
+    margin-top:100px;
+    padding-top:70px;
+    
+    margin-bottom:0px;
+}
+.footer-list ul li{
+    list-style: none;
+    display: inline-block;
+    border-top:1px solid silver;
+    border-bottom:1px solid silver;
+    margin-right:30px;
+    margin-bottom:30px;
+}
+.footer-list{
+    margin-top:70px;
+}
+.footer-list a{
+  
+  display: block;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size: 23px;
+  
+}
+.footer-list:hover{
+    cursor: pointer;
+}
+
+.footer-sns i{
+    font-size:60px;
+    margin-right:50px;
+}
+.footer-sns:hover{
+    cursor: pointer;
+}
